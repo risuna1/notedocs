@@ -1,0 +1,32 @@
+site_name: My Docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon:  material/toggle-switch-off-outline
+        name: ダークモードに切り替えます。
+    - scheme: slate
+      primary: 'teal'
+      accent: 'orange'
+      toggle:
+        icon: material/toggle-switch
+        name: ライトモードに切り替えます。
+  features:
+    - search.suggest         ## 検索の候補リスト表示を表示する
+    - search.highlight       ## 検索で一致した結果をハイライトする
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: ja
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

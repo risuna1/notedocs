@@ -1,0 +1,4 @@
+mkdocs-material==9.5.31
+mkdocs-git-revision-date-plugin==0.3.2
+plantuml-markdown==3.10.2
+mkdocs-encryptcontent-plugin==3.0.3
